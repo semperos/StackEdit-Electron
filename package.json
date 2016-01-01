@@ -1,27 +1,29 @@
 {
-  "name": "markdown-editor",
+  "name": "StackEdit-Electron",
   "version": "0.0.1",
-  "description": "A simple Markdown Editor",
+  "description": "StackEdit on Electron",
   "main": "main.js",
   "scripts": {
     "start": "electron main.js",
     "postinstall": "cd node_modules/stackedit/ && bower install",
-    "build": "electron-packager . MarkdownEditor --platform=darwin --arch=x64 --version=0.36.2 --icon=icon.icns"
+    "package": "electron-packager . StackEdit --platform=darwin --arch=x64 --version=0.36.2 --icon=icon.icns"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajf-/markdown-editor.git"
+    "url": "git+https://github.com/ajf-/StackEdit-Electron.git"
   },
   "keywords": [
     "markdown",
-    "editor"
+    "editor",
+    "stackedit",
+    "electron"
   ],
   "author": "Alain Jacomet",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ajf-/markdown-editor/issues"
+    "url": "https://github.com/ajf-/StackEdit-Electron/issues"
   },
-  "homepage": "https://github.com/ajf-/markdown-editor#readme",
+  "homepage": "https://github.com/ajf-/StackEdit-Electron#readme",
   "devDependencies": {
     "electron-packager": "^5.2.0",
     "electron-prebuilt": "^0.36.0"
