@@ -1,0 +1,31 @@
+{
+  "name": "markdown-editor",
+  "version": "0.0.1",
+  "description": "A simple Markdown Editor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js",
+    "build": "electron-packager . MarkdownEditor --platform=darwin --arch=x64 --version=0.36.2 --icon=icon.icns"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajf-/markdown-editor.git"
+  },
+  "keywords": [
+    "markdown",
+    "editor"
+  ],
+  "author": "Alain Jacomet",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ajf-/markdown-editor/issues"
+  },
+  "homepage": "https://github.com/ajf-/markdown-editor#readme",
+  "devDependencies": {
+    "electron-packager": "^5.2.0",
+    "electron-prebuilt": "^0.36.0"
+  },
+  "dependencies": {
+    "stackedit": "git+https://git@github.com/benweet/stackedit.git"
+  }
+}
