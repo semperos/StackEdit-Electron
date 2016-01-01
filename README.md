@@ -32,6 +32,13 @@ Making the electron app start the server by including StackEdit's server seems l
 2. I have not yet tested the cloud synchronizations, but I am guessing that serving from localhost will have some issues.
 3. Save to disk works out of the box. 
 
+## Build
+
+To build the packaged app, run:
+````
+npm run build
+````
+Note that the configuration of the `build` script in `package.json` is specific to my environment, so you might need to tweak it. 
 
 ## To do
 
