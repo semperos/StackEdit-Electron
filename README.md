@@ -2,6 +2,8 @@
 
 StackEdit on Electron.
 
+![Screenshot](https://raw.githubusercontent.com/ajf-/MarkdownEditor/master/screenshot.png)
+
 MarkdownEditor is a plain simple live markdown editor that is intended to help me write my posts and the documentation for my projects.
 
 It's a fork of the [Electron Quick Start](https://github.com/atom/electron-quick-start) and uses the [StackEdit](https://stackedit.io/) editor, which has a bunch of awesome features.
@@ -30,14 +32,9 @@ Making the electron app start the server by including StackEdit's server seems l
 2. I have not yet tested the cloud synchronizations, but I am guessing that serving from localhost will have some issues.
 3. Save to disk works out of the box. 
 
-## To build 
-
-```
-npm run build 
-```
-Note that the `build` script in `package.json` is specific to my own environment. Currently the compiled app *does not work*. I still need to see why this is.
 
 ## To do
+
 
 - Probably investigate a way to use this in a more Electron-like way (without an express server in between). Currently I'm more concerned with using StackEdit as it is and trying not to do any modifications on it. 
 
