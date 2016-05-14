@@ -7,9 +7,9 @@ const BrowserWindow = electron.BrowserWindow;  // Module to create native browse
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
 
-// Load stackEdit. 
+// Load stackEdit.
 process.env['NO_CLUSTER'] = true; // Crashes if this is not here
-(require('stackedit/server.js'));
+(require('./vendor/stackedit/server.js'));
 
 // Quit when all windows are closed.
 app.on('window-all-closed', function() {
